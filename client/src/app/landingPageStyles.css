@@ -1,0 +1,98 @@
+.mainCtn{
+    background: #8ac3d01c;
+}
+.introduction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.intro-content{
+    padding-left: 1rem;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+}
+section.info h1{
+    align-self: center;
+}
+.btn-section{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.btn-section button{
+    background: #55c2da;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+.cardSec{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.icon{
+    font-size:3rem;
+    color: #55c2da;
+    margin-bottom: 0.5rem;
+}
+
+.cardHolder{
+
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    .introduction{
+        flex-direction: row;
+    }
+    .intro-content{
+        padding-left: 6rem;
+    }
+    section.info h1{
+        margin-bottom: 6rem;
+    }
+    .cardHolder{
+    background: rgba(255, 255, 255, 0.597);
+    padding: 3rem;
+    border-radius: 2rem;
+    }
+    .cardHolder h3{
+        font-weight: 600;
+        font-size: large;
+    }
+    section.info h1{
+        align-self: center;
+        font-size: 5rem;
+        font-weight: 500;
+    }
+    .joinSection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 3rem;
+        gap: 1.2rem;
+    }
+    .joinSection h1{
+        font-size: 2.5rem;
+        font-weight: 800;
+    }
+    .joinSection h3{
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    .joinSection button{
+        background: #55c2da;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+}
