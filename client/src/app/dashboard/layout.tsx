@@ -11,32 +11,34 @@ interface Props {
 
 export default function Layout({ children }: Props) {
     return (
-        <div>
-            <aside>
-                <nav>
-                    <div className="nav-cont">
-                        <GrOverview />
-                        <h2>Overview</h2>
-                    </div>
-                </nav>
-                <nav>
-                    <div className="nav-cont">
-                        <MdRecordVoiceOver />
-                        <h2>
-                            Journal Records
-                        </h2>
-                    </div>
-                </nav>
-                <nav>
-                    <div className="nav-cont">
-                        <BsJournalAlbum />
-                        <h2>
-                            Journaling
-                        </h2>
-                    </div>
-                </nav>
-            </aside>
+        <main className=" h-screen">
+            <header className="header">
+                <div className="navBar">
+                    <nav className="navCont">
+                        <div id="nav-cont">
+                            <GrOverview id="icon" />
+                            <h2>Overview</h2>
+                        </div>
+                    </nav>
+                    <nav className="navCont">
+                        <div id="nav-cont">
+                            <MdRecordVoiceOver id="icon" />
+                            <h2>
+                                Journal Records
+                            </h2>
+                        </div>
+                    </nav>
+                    <nav className="navCont">
+                        <div id="nav-cont">
+                            <BsJournalAlbum id="icon" />
+                            <h2>
+                                Journaling
+                            </h2>
+                        </div>
+                    </nav>
+                </div>
+            </header>
             {children}
-        </div>
+        </main>
     )
 }

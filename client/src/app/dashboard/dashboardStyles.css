@@ -1,3 +1,35 @@
-.nav-cont{
-    display: flex;
+
+
+@media only screen and (min-width: 768px) {
+    main{
+        background: #8ac3d01c;
+    }
+
+    .header{
+        display: flex;
+        justify-content: center;
+        padding-top: 1rem;
+    }
+    
+    .navBar{
+        display: flex;
+        gap: 3rem;
+        padding: 1.5rem;
+        border-radius: 2rem;
+        background: #55c2da;
+    }
+    
+    #nav-cont{
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        cursor: pointer;
+    }
+    #icon{
+        font-size: 1.6rem;
+        color: white;
+    }
+    #nav-cont h2{
+        font-size: 1.6rem;
+    }
 }
