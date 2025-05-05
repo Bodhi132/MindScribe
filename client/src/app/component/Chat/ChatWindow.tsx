@@ -1,8 +1,11 @@
 import React from 'react'
+import ChatInput from './ChatInput'
 
 const ChatWindow = () => {
   return (
-    <div>ChatWindow</div>
+    <div>
+      <ChatInput />
+    </div>
   )
 }
 

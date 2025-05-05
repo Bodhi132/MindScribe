@@ -1,0 +1,69 @@
+/* .input-main{
+    height: 2rem;
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 2.5rem;
+    padding-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    border: 1px solid gray;
+    box-shadow: 2px 2px black;
+    border-radius: 3rem;
+}
+.input-main textarea{
+    width: 100%;
+    height: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    overflow: hidden;
+    resize: none;
+    border:none;
+    outline: none;
+    font-size: 1rem;
+}
+.iconHolder{
+    background-color: black;
+    color: white;
+    border-radius: 100%;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.input-main{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+    border: 1px solid gray;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    box-shadow: 5px 5px black;
+    border-radius: 3rem;
+}
+.input-main textarea{
+    width: 100%;
+    overflow: hidden;
+    resize: none;
+    border:none;
+    outline: none;
+    font-size: 1.5rem;
+}
+.iconHolder{
+    background-color: black;
+    color: white;
+    border-radius: 100%;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+} 
